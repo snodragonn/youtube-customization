@@ -1,0 +1,526 @@
+/* reg: #ec3a78 Dark: #FFD1E1 light: #8a0030 grad: #880030  v--color*/
+
+:root {
+    --main-color: #ec3a78 !important;
+    --main-background: #FFD1E1 !important;
+    --second-background: hsl(339, 63%, 79%) !important;
+    --hover-background: #d87397 !important;
+
+    --main-text: #8a0030 !important;
+    --dimmer-text: #ae1d50 !important;
+
+    --shadow: rgba(0, 5, 26, 0.85) !important;
+
+    --efyt-accent-color: #ec3a78 !important;
+}
+
+
+/* ----------- bg ----------- */
+
+html,
+body,
+ytd-app {
+    background-color: #FFD1E1 !important;
+    color: #8a0030 !important;
+}
+
+ytd-page-manager,
+ytd-browse,
+ytd-search,
+ytd-watch-flexy,
+ytd-watch {
+    background-color: #FFD1E1 !important;
+}
+
+
+/* ----------- header ----------- */
+
+#masthead-container,
+#masthead {
+    background-color: #FFD1E1 !important;
+}
+
+#container.ytd-masthead {
+    background-color: #FFD1E1 !important;
+}
+
+#search-form {
+    background-color: #eba7bf !important;
+    border-color: #ec3a78 !important;
+}
+
+#search-input.ytd-searchbox-spt {
+    color: #8a0030 !important;
+}
+
+#search-input.ytd-searchbox-spt::placeholder {
+    color: #ae1d50 !important;
+}
+
+ytd-searchbox {
+    --yt-searchbox-background: #eba7bf !important;
+    --yt-searchbox-text-color: #8a0030 !important;
+}
+
+#search-icon-legacy {
+    background-color: #ec3a78 !important;
+    border-color: #ec3a78 !important;
+}
+
+#search-icon-legacy:hover {
+    background-color: #880030 !important;
+}
+
+
+/* ----------- sideb ----------- */
+
+#guide-content,
+ytd-guide-renderer {
+    background-color: #FFD1E1 !important;
+}
+
+ytd-guide-entry-renderer {
+    color: #8a0030 !important;
+}
+
+ytd-guide-entry-renderer:hover {
+    background-color: #d87397 !important;
+}
+
+ytd-guide-entry-renderer[active] {
+    background-color: #ec3a78 !important;
+}
+
+ytd-guide-entry-renderer[active] #endpoint {
+    color: #8a0030 !important;
+}
+
+
+ytd-guide-section-renderer {
+    border-color: rgba(170, 20, 72, 0.35) !important;
+}
+
+
+/* ----------- thumbnail n home ----------- */
+
+ytd-rich-item-renderer,
+ytd-video-renderer,
+ytd-grid-video-renderer,
+ytd-compact-video-renderer {
+    background-color: transparent !important;
+}
+
+ytd-rich-item-renderer:hover,
+ytd-video-renderer:hover {
+    background-color: rgba(170, 20, 72, 0.10) !important;
+}
+
+#video-title {
+    color: #8a0030 !important;
+}
+
+#channel-name,
+#metadata-line,
+#metadata-line span,
+.ytd-video-meta-block {
+    color: #ae1d50 !important;
+}
+
+
+/* ----------- butt(on) hey now alright calm down ----------- */
+
+yt-button-shape button,
+ytd-button-renderer yt-button-shape button {
+    background-color: #ec3a78 !important;
+    color: #8a0030 !important;
+}
+
+yt-button-shape button:hover,
+ytd-button-renderer yt-button-shape button:hover {
+    background-color: #880030 !important;
+}
+
+
+/* subscie and hit that bell */
+
+ytd-subscribe-button-renderer tp-yt-paper-button {
+    background-color: #ec3a78 !important;
+    color: #8a0030 !important;
+}
+
+
+/* ----------- categiry ----------- */
+
+yt-chip-cloud-chip-renderer {
+    background-color: #eba7bf !important;
+    border-color: rgba(170, 20, 72, 0.6) !important;
+    color: #8a0030 !important;
+}
+
+yt-chip-cloud-chip-renderer:hover {
+    background-color: #d87397 !important;
+}
+
+yt-chip-cloud-chip-renderer[chip-style="STYLE_DEFAULT"][selected] {
+    background-color: #ec3a78 !important;
+    color: #8a0030 !important;
+}
+
+
+/* ----------- video im inside yuo ----------- */
+
+#columns,
+#primary,
+#secondary {
+    background-color: transparent !important;
+}
+
+#below,
+#comments {
+    background-color: transparent !important;
+}
+
+ytd-watch-metadata h1,
+ytd-watch-metadata #title {
+    color: #8a0030 !important;
+}
+
+.html5-video-player {
+    --yt-spec-static-brand-red: #ff2a74 !important;
+    --yt-spec-static-brand-white: #ff5c95 !important;
+}
+
+.html5-video-player .ytp-progress-bar .ytp-play-progress {
+    background: #ff2a74 !important;
+    background-color: #ff2a74 !important;
+}
+
+.html5-video-player .ytp-progress-bar .ytp-scrubber-button {
+    background: #ff2a74 !important;
+    background-color: #ff2a74 !important;
+}
+
+.html5-video-player .ytp-load-progress {
+    background: rgba(255, 200, 227, 0.05) !important;
+}
+
+
+.ytp-volume-slider-handle {
+    background-color: #f8c1d4 !important;
+}
+
+.ytp-volume-slider {
+    background-color: transparent !important;
+}
+
+.ytp-settings-menu,
+.ytp-panel-menu {
+    background-color: #FFD1E1 !important;
+    color: #8a0030 !important;
+}
+
+.ytp-menuitem:hover {
+    background-color: #d87397 !important;
+}
+
+
+/*  lol  ytp and ytd  */
+
+ytd-comment-thread-renderer,
+ytd-comment-renderer {
+    background-color: transparent !important;
+}
+
+ytd-comment-renderer:hover {
+    background-color: rgba(170, 20, 72, 0.08) !important;
+}
+
+#content-text {
+    color: #8a0030 !important;
+}
+
+#author-text {
+    color: #ae1d50 !important;
+}
+
+
+ytd-commentbox {
+    --yt-spec-brand-link-text: #8a0030 !important;
+}
+
+ytd-toggle-button-renderer#like-button,
+ytd-toggle-button-renderer#dislike-button {
+    --yt-spec-button-shape-next-background: #FFD1E1 !important;
+    --yt-spec-button-shape-next-background-hover: #eba7bf !important;
+    --yt-spec-button-shape-next-background-active: #eba7bf !important;
+
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+}
+
+ytd-toggle-button-renderer#like-button button,
+ytd-toggle-button-renderer#dislike-button button {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+ytd-toggle-button-renderer#like-button
+.yt-spec-button-shape-next,
+ytd-toggle-button-renderer#dislike-button
+.yt-spec-button-shape-next {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+
+ytd-toggle-button-renderer#like-button
+.yt-spec-touch-feedback-shape__fill,
+
+ytd-toggle-button-renderer#dislike-button
+.yt-spec-touch-feedback-shape__fill {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+}
+
+ytd-toggle-button-renderer#like-button
+.yt-spec-touch-feedback-shape,
+
+ytd-toggle-button-renderer#dislike-button
+.yt-spec-touch-feedback-shape {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+}
+
+ytd-toggle-button-renderer#like-button
+.yt-spec-touch-feedback-shape__stroke,
+
+ytd-toggle-button-renderer#dislike-button
+.yt-spec-touch-feedback-shape__stroke {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    border-color: #FFD1E1 !important;
+}
+
+ytd-toggle-button-renderer#like-button yt-icon,
+ytd-toggle-button-renderer#dislike-button yt-icon {
+    color: #ae1d50 !important;
+    fill: #ae1d50 !important;
+}
+
+ytd-toggle-button-renderer#like-button svg,
+ytd-toggle-button-renderer#dislike-button svg {
+    color: #ae1d50 !important;
+}
+
+ytd-toggle-button-renderer#like-button svg path,
+ytd-toggle-button-renderer#dislike-button svg path {
+    fill: #ae1d50 !important;
+    stroke: #ae1d50 !important;
+}
+
+ytd-toggle-button-renderer#like-button,
+ytd-toggle-button-renderer#dislike-button {
+    color: #ae1d50 !important;
+}
+
+ytd-button-renderer#reply-button,
+ytd-button-renderer#reply-button button,
+ytd-button-renderer#reply-button
+.yt-spec-button-shape-next {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+ytd-button-renderer#reply-button
+.yt-spec-touch-feedback-shape__fill {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+}
+
+ytd-button-renderer#reply-button
+.yt-spec-touch-feedback-shape__stroke {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    border-color: #FFD1E1 !important;
+}
+
+ytd-button-renderer#reply-button,
+ytd-button-renderer#reply-button * {
+    color: #ae1d50 !important;
+}
+
+ytd-comment-replies-renderer
+yt-button-shape > button,
+ytd-comment-replies-renderer
+.yt-spec-button-shape-next {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+ytd-comment-replies-renderer
+.yt-spec-touch-feedback-shape__fill {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+}
+
+ytd-comment-replies-renderer yt-icon {
+    color: #ae1d50 !important;
+    fill: #ae1d50 !important;
+}
+
+ytd-toggle-button-renderer#like-button:hover button,
+ytd-toggle-button-renderer#dislike-button:hover button,
+ytd-button-renderer#reply-button:hover button,
+ytd-comment-replies-renderer
+yt-button-shape > button:hover {
+    background: #eba7bf !important;
+    background-color: #eba7bf !important;
+}
+
+ytd-toggle-button-renderer#like-button:hover yt-icon,
+ytd-toggle-button-renderer#dislike-button:hover yt-icon {
+    color: #8a0030 !important;
+    fill: #8a0030 !important;
+}
+
+tp-yt-paper-listbox,
+tp-yt-paper-menu,
+ytd-menu-popup-renderer,
+ytd-multi-page-menu-renderer {
+    background-color: #FFD1E1 !important;
+    color: #8a0030 !important;
+}
+
+ytd-menu-service-item-renderer:hover,
+ytd-menu-navigation-item-renderer:hover,
+tp-yt-paper-item:hover {
+    background-color: #d87397 !important;
+}
+
+tp-yt-paper-tooltip #tooltip {
+    background-color: #FFD1E1 !important;
+    color: #8a0030 !important;
+    border: 1px solid #ec3a78 !important;
+}
+
+a {
+    color: #ae1d50 !important;
+}
+
+a:hover {
+    color: #8a0030 !important;
+}
+
+
+/* ----------- scroll -----------*/
+
+* {
+    scrollbar-color: #ec3a78 transparent !important;
+    scrollbar-width: thin !important;
+}
+
+*::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #ec3a78 !important;
+    border-radius: 10px !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #880030 !important;
+}
+
+#enhancer-for-youtube-toolbar {
+    background-color: #FFD1E1 !important;
+    border-color: #ec3a78 !important;
+}
+
+#enhancer-for-youtube-toolbar i {
+    color: #8a0030 !important;
+}
+
+#enhancer-for-youtube-toolbar:hover {
+    border-color: #880030 !important;
+}
+
+::selection {
+    background-color: #ec3a78 !important;
+    color: #8a0030 !important;
+}
+
+*:focus-visible {
+    outline: 2px solid #880030 !important;
+    outline-offset: 2px !important;
+}
+
+
+ytd-button-renderer#reply-button {
+    --yt-spec-button-shape-next-background: #FFD1E1 !important;
+    --yt-spec-button-shape-next-background-hover: #eba7bf !important;
+    --yt-spec-button-shape-next-background-active: #eba7bf !important;
+
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+}
+
+ytd-button-renderer#reply-button
+yt-button-shape
+button {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+ytd-button-renderer#reply-button
+.yt-spec-touch-feedback-shape__fill {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    background-image: none !important;
+}
+
+ytd-button-renderer#reply-button
+.yt-spec-touch-feedback-shape {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+}
+
+ytd-button-renderer#reply-button
+.yt-spec-touch-feedback-shape__stroke {
+    background: #FFD1E1 !important;
+    background-color: #FFD1E1 !important;
+    border-color: #FFD1E1 !important;
+}
+
+ytd-button-renderer#reply-button
+yt-button-shape
+button {
+    color: #ae1d50 !important;
+}
+
+ytd-button-renderer#reply-button:hover
+yt-button-shape
+button {
+    background: #eba7bf !important;
+    background-color: #eba7bf !important;
+}
+
+/* hope you like......... email me if anything looks weird ill update
+*/
